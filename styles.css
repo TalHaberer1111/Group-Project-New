@@ -53,6 +53,7 @@
 
 
 .cover {
+  /*background: linear-gradient(#86e8b8, transparent 50%), linear-gradient(0deg, #fff, transparent 90%), url("img/cover3.jpg") no-repeat center;*/
   background-image: url("img/cover3.jpg");
   height: 500px;
   width: 100%;
@@ -87,7 +88,7 @@
   height: 20vh;
   margin: 0 auto;
   display: flex;
-  flex: 2;
+  flex: 1;
   z-index: 10;
   border: 20px solid rgba(34,	34,	59, 0.3);
   border-radius: 5px;
@@ -126,6 +127,7 @@ margin: 0 auto;
   font-size: 14px;
   border:2px solid #5C415D;
   -webkit-appearance:none;
+  flex: 1;
   /*font-family: 'Raleway', sans-serif;*/
 }
 .flex-form label {
@@ -233,19 +235,23 @@ footer {
   align-self: center;
   margin: 0 auto;
   color: black;
+
 }
 .flex-form label {
-font-size: 20px;
+font-size: 15px;
 }
 
  .flex-form > * {
   border: 0;
   padding: 10px;
   -webkit-appearance: none;
-   color: black; }
+  color: black;
+  font-family: 'Raleway', sans-serif;
+}
  .flex-form > *:last-child {
   border-right: 0;
   color: grey;
+  font-family: 'Raleway', sans-serif;
  }
 
  .icon {
@@ -270,6 +276,10 @@ font-size: 20px;
   margin-bottom: 90px;
   width: 60%;
   margin: 0 auto;
+   }*/
+
+   /*.flex-form label {
+   font-size: 20px;
    }*/
 
 .headerInfo h2 {
@@ -300,7 +310,7 @@ font-size: 20px;
 
 
 .cover {
-  height: 70vh;
+  height: 60vh;
   width: 100%;
   background-image: url("img/cover3.jpg");
   background-repeat: no-repeat;
