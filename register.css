@@ -1,5 +1,5 @@
 body {
-background: linear-gradient(#fff, transparent 60%), linear-gradient(0deg, #fff, transparent 30%), url("../img/cover3.jpg") no-repeat center;
+background: linear-gradient(#fff, transparent 50%), linear-gradient(0deg, #fff, transparent 20%), url("../img/cover3.jpg") no-repeat center;
   background-size: cover;
 
 }
@@ -15,16 +15,21 @@ background: linear-gradient(#fff, transparent 60%), linear-gradient(0deg, #fff, 
     background: linear-gradient(#5C415D, transparent 100%), linear-gradient(0deg, #705151, transparent 100%);
     /*background: #5C415D;*/
     margin: 10px auto;
+    margin-top: 40px;
     padding: 20px;
     border-radius: 8px;
     color: white;
     text-shadow: 3px 3px 3px black;
-    transition: all 1s ease;
+    transition: all 1s ease-out;
 }
 
 .form:hover {
-  max-width: 600px;
+  max-width: 700px;
   background: linear-gradient(#6F9283, transparent 100%), linear-gradient(0deg, #705151, transparent 100%);
+  color: #274963;
+  text-shadow: 3px 2px 2px gray;
+  transform: scale(1.06);
+  transition: all 1s ease-in-out 0.4s
 }
 
 .form-group label{
